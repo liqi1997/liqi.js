@@ -1,0 +1,12 @@
+{
+  "name": "liqi.js",
+  "version": "1.0.0",
+  "description": "This is my personal npm package. It includes some useful JavaScript functions.",
+  "main": "index.js",
+  "scripts": {
+   
+  },
+  "keywords": ["JavaScript"],
+  "author": "liqi1997",
+  "license": "MIT"
+}
