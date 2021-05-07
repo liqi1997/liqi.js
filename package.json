@@ -8,5 +8,12 @@
   },
   "keywords": ["JavaScript"],
   "author": "liqi1997",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liqi1997/liqi.js"
+  },
+  "bugs": {
+    "url": "https://github.com/liqi1997/liqi.js/issues"
+  }
 }
