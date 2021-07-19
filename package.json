@@ -1,13 +1,20 @@
 {
   "name": "liqi.js",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "This is my personal npm package. It includes some useful JavaScript functions.",
-  "main": "index.js",
+  "module": "dist/bundle.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-   
+    "build": "rollup -c",
+    "test": "jest",
+    "publish": "npm publish"
   },
-  "keywords": ["JavaScript"],
-  "author": "liqi1997",
+  "keywords": [
+    "JavaScript"
+  ],
+  "author": "liqi1997<191728146@qq.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -15,5 +22,12 @@
   },
   "bugs": {
     "url": "https://github.com/liqi1997/liqi.js/issues"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "babel-jest": "^27.0.6",
+    "jest": "^27.0.6",
+    "rollup": "^2.53.2"
   }
 }
